@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="shortcut icon" href="profile.ico" type="image/x-icon" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
         a:any-link {
             color: aliceblue;
@@ -74,7 +75,7 @@
         <section class="container mb-5 pb-5" id="home">
             <div class="row">
                 <div class="col-sm-12 col-md-6 p-5 d-flex flex-column justify-content-center align-items-center">
-                    <div class="row mb-3">
+                    <div class="row mb-3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <div class="col">
                             <h6 class="text-warning">HELLO!</h6>
                             <h1>
@@ -86,16 +87,17 @@
                     </div>
                     <div class="row">
                         <div class="col">
-                            <button type="button" class="btn btn-outline-warning rounded-5">
+                            <button type="button" class="btn btn-outline-warning rounded-5" data-aos="fade-right">
                                 HIRE ME!
                             </button>
-                            <button type="button" class="btn btn-outline-warning rounded-5">
+                            <button type="button" class="btn btn-outline-warning rounded-5" data-aos="fade-left">
                                 MY WORK
                             </button>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12 col-md-6" data-aos="fade-left" data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                     <img src="img/bg_1.png" alt="" class="img-fluid" />
                 </div>
             </div>
@@ -103,11 +105,11 @@
 
         <section class="container my-5 py-5" id="about">
             <div class="row">
-                <div class="col-sm-12 col-md-6 text-center">
+                <div class="col-sm-12 col-md-6 text-center" data-aos="zoom-in">
                     <img src="img/profile_picture.jpg" alt="" class="img-fluid about__img rounded-4" width="300"
                         height="auto" />
                 </div>
-                <div class="col-sm-12 col-md-6 mt-5">
+                <div class="col-sm-12 col-md-6 mt-5" data-aos="zoom-in">
                     <h2 class="mb-4"><big>About Me</big></h2>
                     <p class="mb-4 text-secondary fw-semibold">
                         Dive into the story behind the pixels. Discover the
@@ -169,7 +171,7 @@
 
         <section class="container my-5 py-5" id="resume">
             <div class="row">
-                <div class="row px-5 text-center">
+                <div class="row px-5 text-center" data-aos="zoom-in-down">
                     <h2 class="py-4"><big>Resume</big></h2>
                     <p class="pb-5 text-secondary fw-semibold">
                         Unveil the roadmap of expertise. My skills,
@@ -179,7 +181,7 @@
                 </div>
 
                 <div class="row text-start mx-auto">
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-md-6" data-aos="fade-right">
                         <div class="row px-md-2 mb-2">
                             <div class="col rounded-4 bg-secondary bg-opacity-10 mb-sm-3 px-4 py-5">
                                 <h3 class="text-warning fw-bolder mb-2">
@@ -203,7 +205,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-md-6" data-aos="fade-left">
                         <div class="row px-md-2 mb-2">
                             <div class="col rounded-4 bg-secondary bg-opacity-10 mb-sm-3 px-4 py-5">
                                 <h3 class="text-warning fw-bolder mb-2">
@@ -224,7 +226,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-md-6" data-aos="fade-right">
                         <div class="row px-md-2 mb-2">
                             <div class="col rounded-4 bg-secondary bg-opacity-10 mb-sm-3 px-4 py-5">
                                 <h3 class="text-warning fw-bolder mb-2">
@@ -246,7 +248,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-md-6" data-aos="fade-left">
                         <div class="row px-md-2 mb-2">
                             <div class="col bg-secondary rounded-4 bg-opacity-10 mb-sm-3 px-4 py-5">
                                 <h3 class="text-warning fw-bolder mb-2">
@@ -269,7 +271,7 @@
                     </div>
                 </div>
 
-                <div class="d-grid d-md-flex justify-content-center mt-4">
+                <div class="d-grid d-md-flex justify-content-center mt-4" data-aos="zoom-in-up">
                     <button type="button" class="btn btn-outline-warning rounded-5 py-3 px-5">
                         DOWNLOAD CV
                     </button>
@@ -279,7 +281,7 @@
 
         <section class="container py-5 my-5" id="services">
             <div class="row">
-                <div class="row px-5 text-center">
+                <div class="row px-5 text-center" data-aos="zoom-in-down">
                     <h2 class="py-4"><big>Services</big></h2>
                     <p class="pb-5 text-secondary fw-semibold">
                         Let's turn your ideas into reality! Explore
@@ -289,7 +291,7 @@
                 </div>
 
                 <div class="row text-start mx-auto">
-                    <div class="col-sm-12 col-md-4 text-center">
+                    <div class="col-sm-12 col-md-4 text-center" data-aos="fade-right">
                         <div class="row px-md-2 mb-2">
                             <div class="col bg-secondary bg-opacity-10 mb-sm-3 px-4 py-5">
                                 <img src="img/icon3.png" alt="" class="img-fluid mb-2" width="96" height="96" />
@@ -297,7 +299,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 text-center">
+                    <div class="col-sm-12 col-md-4 text-center" data-aos="zoom-in">
                         <div class="row px-md-2 mb-2">
                             <div class="col bg-secondary bg-opacity-10 mb-sm-3 px-4 py-5">
                                 <img src="img/icon5.png" alt="" class="img-fluid mb-2" width="96" height="96" />
@@ -305,7 +307,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 text-center">
+                    <div class="col-sm-12 col-md-4 text-center" data-aos="fade-left">
                         <div class="row px-md-2 mb-2">
                             <div class="col bg-secondary bg-opacity-10 mb-sm-3 px-4 py-5">
                                 <img src="img/icon6.png" alt="" class="img-fluid mb-2" width="96" height="96" />
@@ -313,7 +315,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 text-center">
+                    <div class="col-sm-12 col-md-4 text-center" data-aos="fade-right">
                         <div class="row px-md-2 mb-2">
                             <div class="col bg-secondary bg-opacity-10 mb-sm-3 px-4 py-5">
                                 <img src="img/icon1.png" alt="" class="img-fluid mb-2" width="96" height="96" />
@@ -321,7 +323,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 text-center">
+                    <div class="col-sm-12 col-md-4 text-center" data-aos="zoom-in">
                         <div class="row px-md-2 mb-2">
                             <div class="col bg-secondary bg-opacity-10 mb-sm-3 px-4 py-5">
                                 <img src="img/icon2.png" alt="" class="img-fluid mb-2" width="96" height="96" />
@@ -329,7 +331,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 text-center">
+                    <div class="col-sm-12 col-md-4 text-center" data-aos="fade-left">
                         <div class="row px-md-2 mb-2">
                             <div class="col bg-secondary bg-opacity-10 mb-sm-3 px-4 py-5">
                                 <img src="img/icon4.png" alt="" class="img-fluid mb-2" width="96" height="96" />
@@ -342,7 +344,7 @@
         </section>
 
         <section class="container mb-5 pb-5" id="skills">
-            <div class="row px-5 text-center">
+            <div class="row px-5 text-center" data-aos="zoom-in-down">
                 <h2 class="py-4"><big>Skills</big></h2>
                 <p class="pb-5 text-secondary fw-semibold">
                     Witness the arsenal of creativity. From coding to
@@ -351,14 +353,14 @@
                 </p>
             </div>
             <div class="row px-md-3 mb-md-3">
-                <div class="col-sm-12 col-md-6 mb-sm-4 mb-3">
+                <div class="col-sm-12 col-md-6 mb-sm-4 mb-3" data-aos="fade-right">
                     <h6>HTML</h6>
                     <div class="progress" role="progressbar" aria-label="Warning striped example" aria-valuenow="90"
                         aria-valuemin="0" aria-valuemax="100">
                         <div class="progress-bar progress-bar-striped bg-warning" style="width: 90%"></div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 mb-sm-4 mb-3">
+                <div class="col-sm-12 col-md-6 mb-sm-4 mb-3" data-aos="fade-left">
                     <h6>CSS</h6>
                     <div class="progress" role="progressbar" aria-label="Warning striped example" aria-valuenow="80"
                         aria-valuemin="0" aria-valuemax="100">
@@ -367,14 +369,14 @@
                 </div>
             </div>
             <div class="row px-md-3 mb-md-3">
-                <div class="col-sm-12 col-md-6 mb-sm-4 mb-3">
+                <div class="col-sm-12 col-md-6 mb-sm-4 mb-3" data-aos="fade-right">
                     <h6>JavaScript</h6>
                     <div class="progress" role="progressbar" aria-label="Warning striped example" aria-valuenow="60"
                         aria-valuemin="0" aria-valuemax="100">
                         <div class="progress-bar progress-bar-striped bg-warning" style="width: 60%"></div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12 col-md-6" data-aos="fade-left">
                     <h6>Java</h6>
                     <div class="progress" role="progressbar" aria-label="Warning striped example" aria-valuenow="90"
                         aria-valuemin="0" aria-valuemax="100">
@@ -385,7 +387,7 @@
         </section>
 
         <section class="container my-5 py-5" id="projects">
-            <div class="row px-5 text-center">
+            <div class="row px-5 text-center" data-aos="zoom-in-down">
                 <h2 class="py-4"><big>My Projects</big></h2>
                 <p class="pb-5 text-secondary fw-semibold">
                     Embark on a visual journey through innovation. Explore a
@@ -398,17 +400,18 @@
         <section class="position-relative text-white text-center"
             style="background-image: url(img/background.jpg); height: 100vh" id="intro">
             <div class="position-absolute top-50 start-50 translate-middle">
-                <h1 class="mb-4">
+                <h1 class="mb-4" data-aos="fade-right">
                     <big>I'm <span class="text-warning">available</span> for
                         freelancing</big>
                 </h1>
-                <p class="text-secondary fw-semibold mb-4">
+                <p class="text-secondary fw-semibold mb-4" data-aos="fade-left">
                     Unlock creativity with my freelance services! From web
                     development to graphic design, I offer tailored
                     solutions for your projects. Let's collaborate and bring
                     your ideas to life!
                 </p>
-                <button type="button" class="btn btn-outline-warning rounded-5 px-5 py-2 active fw-semibold">
+                <button type="button" class="btn btn-outline-warning rounded-5 px-5 py-2 active fw-semibold"
+                    data-aos="zoom-in-up">
                     HIRE ME!
                 </button>
             </div>
@@ -416,31 +419,33 @@
 
         <section class="container mt-5" id="contact">
             <div class="row px-5 text-center">
-                <h2 class="py-4"><big>Contact Me</big></h2>
-                <p class="pb-5 text-secondary fw-semibold">
-                    Ready to collaborate? Reach out and let's bring your
-                    vision to life. Your next project starts with just a
-                    click!
-                </p>
+                <div data-aos="zoom-in-down">
+                    <h2 class="py-4"><big>Contact Me</big></h2>
+                    <p class="pb-5 text-secondary fw-semibold">
+                        Ready to collaborate? Reach out and let's bring your
+                        vision to life. Your next project starts with just a
+                        click!
+                    </p>
+                </div>
                 <div class="row">
-                    <div class="col-sm-12 col-md-3 mb-sm-3 pb-4">
+                    <div class="col-sm-12 col-md-3 mb-sm-3 pb-4" data-aos="zoom-in-right">
                         <img src="img/location.png" class="img-fluid mb-4" alt="" width="60" height="60" />
                         <h6 class="mb-4">ADDRESS</h6>
                         <p class="">
                             Sri Samagipura,<br />Kuda Waskaduwa,<br />Waskaduwa
                         </p>
                     </div>
-                    <div class="col-sm-12 col-md-3 mb-sm-3 pb-4">
+                    <div class="col-sm-12 col-md-3 mb-sm-3 pb-4" data-aos="zoom-in">
                         <img src="img/call.png" class="img-fluid mb-4" alt="" width="60" height="60" />
                         <h6 class="mb-4">CONTACT NUMBER</h6>
                         <a href="tel:+94713449119">+94-713449119</a>
                     </div>
-                    <div class="col-sm-12 col-md-3 mb-sm-3 pb-4">
+                    <div class="col-sm-12 col-md-3 mb-sm-3 pb-4" data-aos="zoom-in">
                         <img src="img/email.png" class="img-fluid mb-4" alt="" width="60" height="60" />
                         <h6 class="mb-4">EMAIL ADDRESS</h6>
                         <a href="mailto:wdulanjith@gmail.com">wdulanjith@gmail.com</a>
                     </div>
-                    <div class="col-sm-12 col-md-3 mb-sm-3 pb-4">
+                    <div class="col-sm-12 col-md-3 mb-sm-3 pb-4" data-aos="zoom-in-left">
                         <img src="img/earth.png" class="img-fluid mb-4" alt="" width="60" height="60" />
                         <h6 class="mb-4">WEBSITE</h6>
                         <a href="#">yoursite.com</a>
@@ -566,6 +571,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            delay: 300
+        });
+    </script>
 </body>
 
 </html>
